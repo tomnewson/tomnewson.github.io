@@ -31,7 +31,7 @@ th {
   color: #212529;
   padding: 12px 15px;
   text-align: left;
-  font-size: clamp(2rem, 6vmin, 8rem);
+  font-size: clamp(1rem, 6vmin, 8rem);
   line-height: 1;
   font-weight: bold;
   border: 1px solid #d0d7de;
@@ -57,17 +57,13 @@ td {
   line-height: 1.1;
   height: auto;
   min-height: 120px;
+  font-size: clamp(1rem, 6vmin, 8rem);
 }
 
 td:first-child {
   border-right: 1px solid #a7afba;
   font-weight: normal;
-  font-size: clamp(2rem, 6vmin, 8rem);
   line-height: 1;
-}
-
-td:last-child {
-  font-size: clamp(1.5rem, 4vmin, 5rem);
 }
 
 tbody tr:nth-child(even) td {
@@ -95,4 +91,5 @@ a:hover {
 footer {
   display: flex;
   justify-content: flex-end;
+  font-size: clamp(1rem, 2vmin, 4rem);
 }
