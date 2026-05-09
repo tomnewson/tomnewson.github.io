@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --page-background: #f2f2f2;
+}
+
 html,
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f2f2f2;
+  background-color: var(--page-background);
 }
 
 .container {
   width: 100vw;
   height: 98vh;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: var(--page-background);
 }
 
 table {
@@ -92,4 +96,5 @@ footer {
   display: flex;
   justify-content: flex-end;
   font-size: clamp(1rem, 2vmin, 4rem);
+  background-color: var(--page-background);
 }
